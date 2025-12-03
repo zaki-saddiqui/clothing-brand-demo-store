@@ -121,7 +121,7 @@ export default function ProductClient({ product }: { product: Product }) {
   return (
     <>
       {/* NUCLEAR-PROOF BACK BUTTON (desktop) */}
-      <div className="hidden lg:flex fixed top-24 left-10 z-[999999]">
+      <div className="hidden lg:flex fixed top-24 left-10 z-999999 ">
         <Link
           href="/shop"
           className="inline-flex items-center gap-3 px-5 py-2.5 rounded-full bg-white/5 border border-white/20 text-gray-200 backdrop-blur-md hover:bg-white/10 hover:text-white transition"
@@ -144,7 +144,7 @@ export default function ProductClient({ product }: { product: Product }) {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 relative mt-18">
         {/* Left: Gallery */}
         <div>
           <div className="rounded-2xl overflow-hidden bg-gray-900 shadow-2xl">
