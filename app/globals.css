@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/* subtle lift motion applied to ghost buttons */
+/* button, a {
+  -webkit-tap-highlight-color: transparent;
+} */
